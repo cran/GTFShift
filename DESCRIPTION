@@ -1,0 +1,41 @@
+Type: Package
+Package: GTFShift
+Title: Explore and Analyse General Transit Feed Specification (GTFS)
+        Files with a Focus on Urban Mobility
+Version: 1.0.0
+Authors@R: c(
+    person(c("Gonçalo", "F."), "Matos", , "goncaloafmatos@tecnico.pt", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0001-3489-1732")),
+    person("Rosa", "Félix", , "rosamfelix@tecnico.pt", role = "aut",
+           comment = c(ORCID = "0000-0002-5642-6006")),
+    person("Miguel", "Relvas Pires", , "miguelpcrpires@tecnico.ulisboa.pt", role = "ctb")
+  )
+Description: A bundle of methods to
+    harmonize GTFS and OSM data, enabling the integration and exploration
+    of different layers of transit data, starting with the planned
+    operations (GTFS), but also the infrastructure topology (OSM) and
+    real-time information (GTFS-RT).
+License: GPL
+URL: https://github.com/U-Shift/GTFShift,
+        https://u-shift.github.io/GTFShift/
+Depends: R (>= 4.1.0)
+Imports: tidytransit, gtfstools, sf, tidyselect, tidyr, lubridate,
+        httr, jsonlite, dplyr, osmdata, stringr, callr, purrr, rlang,
+        xml2, withr
+Suggests: knitr, rmarkdown, mapview, osmextract, rosmium, testthat,
+        zip, gtfsrouter (>= 0.1.4), reticulate, parallel, RProtoBuf,
+        stplanr, lwgeom, progress, stringi, spelling
+VignetteBuilder: knitr
+Config/Needs/website: rmarkdown
+Config/roxygen2/version: 8.1.0
+Encoding: UTF-8
+Language: en-US
+NeedsCompilation: no
+Packaged: 2026-09-16 14:16:01 UTC; goncalo
+Author: Gonçalo F. Matos [aut, cre] (ORCID:
+    <https://orcid.org/0009-0001-3489-1732>),
+  Rosa Félix [aut] (ORCID: <https://orcid.org/0000-0002-5642-6006>),
+  Miguel Relvas Pires [ctb]
+Maintainer: Gonçalo F. Matos <goncaloafmatos@tecnico.pt>
+Repository: CRAN
+Date/Publication: 2026-09-27 16:30:21 UTC
