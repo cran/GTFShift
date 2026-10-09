@@ -2,7 +2,7 @@ Type: Package
 Package: GTFShift
 Title: Explore and Analyse General Transit Feed Specification (GTFS)
         Files with a Focus on Urban Mobility
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: c(
     person(c("Gonçalo", "F."), "Matos", , "goncaloafmatos@tecnico.pt", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0001-3489-1732")),
@@ -31,11 +31,11 @@ Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
 Language: en-US
 NeedsCompilation: no
-Packaged: 2026-09-16 14:16:01 UTC; goncalo
+Packaged: 2026-10-09 13:31:03 UTC; goncalo
 Author: Gonçalo F. Matos [aut, cre] (ORCID:
     <https://orcid.org/0009-0001-3489-1732>),
   Rosa Félix [aut] (ORCID: <https://orcid.org/0000-0002-5642-6006>),
   Miguel Relvas Pires [ctb]
 Maintainer: Gonçalo F. Matos <goncaloafmatos@tecnico.pt>
 Repository: CRAN
-Date/Publication: 2026-09-27 16:30:21 UTC
+Date/Publication: 2026-10-09 14:00:09 UTC

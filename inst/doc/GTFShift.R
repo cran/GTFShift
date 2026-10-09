@@ -5,7 +5,10 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
-## -----------------------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
+# install.packages("GTFShift")
+
+## ----eval=FALSE---------------------------------------------------------------
 # # install.packages("remotes")
 # remotes::install_github("U-Shift/GTFShift")
 

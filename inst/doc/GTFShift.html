@@ -343,14 +343,16 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 
 <div id="installation" class="section level1">
 <h1>Installation</h1>
-<p>You can install the development version of <code>GTFShift</code> from
-GitHub with:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="co"># install.packages(&quot;remotes&quot;)</span></span>
-<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;U-Shift/GTFShift&quot;</span>)</span></code></pre></div>
+<p>You can install the stable version of <strong>GTFShift</strong> from
+CRAN:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;GTFShift&quot;</span>)</span></code></pre></div>
+<p>For the development version, fetch from GitHub:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="co"># install.packages(&quot;remotes&quot;)</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;U-Shift/GTFShift&quot;</span>)</span></code></pre></div>
 </div>
 <div id="load-the-package" class="section level1">
 <h1>Load the package</h1>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">library</span>(GTFShift)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">library</span>(GTFShift)</span></code></pre></div>
 </div>
 <div id="key-functions" class="section level1">
 <h1>Key functions</h1>
@@ -416,8 +418,8 @@ frequency per stop, route or road segment.</p>
 <div id="osm-data" class="section level3">
 <h3><a href="https://u-shift.github.io/GTFShift/articles/osm.html">OSM
 Data</a></h3>
-<p>OpenStreetMaps (OSM) is an important data source for transit
-analysis, due to its rich, open, and detailed geographic data.</p>
+<p>OpenStreetMap (OSM) is an important data source for transit analysis,
+due to its rich, open, and detailed geographic data.</p>
 <p><strong>GTFShift</strong> includes some methods that allow to access
 its information directly, namely to export bus lanes, get centerlines
 for the road network and export the OSM transit routes.</p>
